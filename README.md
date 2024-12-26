@@ -5,7 +5,7 @@ A prymer on pytest
 ## Introduction to Testing with pytest
 
 . Why Test?
-  . Does anything work?
+  . Does anything work?/n
   . Why PyTest?
 . Setup Cloud Development Environments with Local CI and Compare:
   . Github Codespaces
