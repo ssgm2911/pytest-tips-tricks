@@ -10,6 +10,7 @@ A prymer on pytest
     * Does anything work?
   
     * Why PyTest?
+      
 * Setup Cloud Development Environments with Local CI and Compare:
 
     * Github Codespaces
@@ -28,11 +29,11 @@ A prymer on pytest
 
 * Overview of pyttest invocation
 
-* Simple version: make test via python -m pytest -vv test_hello.py
+* Simple version: `make test` via `python -m pytest -vv test_hello.py`
 
-* Adding Code Coverage: pytest-cov python -m pytest -vv --cov=hello test_hello.py
+* Adding Code Coverage: `pytest-cov` `python -m pytest -vv --cov=hello test_hello.py`
 
-    * Coverage Invoke Snippit
+    * [Coverage Invoke Snippit]
 
 * Adding Jupyter Notebook testing:
   
