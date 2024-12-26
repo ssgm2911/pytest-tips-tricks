@@ -70,6 +70,6 @@ A prymer on pytest
 
 * Testing Flask API
 
-. Testing FastAPI
+* Testing FastAPI
 
 
