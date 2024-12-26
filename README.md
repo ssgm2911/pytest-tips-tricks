@@ -27,19 +27,19 @@ A prymer on pytest
 
 ## Invoking PyTest
 
-* Overview of pyttest invocation
+* [Overview of pyttest invocation](https://docs.pytest.org/en/6.2.x/usage.html?highlight=pdb)
 
 * Simple version: `make test` via `python -m pytest -vv test_hello.py`
 
 * Adding Code Coverage: `pytest-cov` `python -m pytest -vv --cov=hello test_hello.py`
 
-    * [Coverage Invoke Snippit]
+    * [Coverage Invoke Snippit](https://github.com/noahgift/devops-from-zero/blob/main/Makefile#L7)
 
 * Adding Jupyter Notebook testing:
   
     * nbval: https://github.com/computationalmodelling/nbval
   
-    * nbval
+    * [nbval](https://github.com/noahgift/myrepo/blob/master/Makefile#L8-L10)
     
 * Debugging Code with PDB:
   
@@ -47,13 +47,13 @@ A prymer on pytest
   
     * Alternative IPDB[https://pypi.org/project/ipdb/]
   
-    * Invoke pytest with --pdb: https://github.com/paiml/testing-in-python/blob/master/chapter6/Makefiel#L2
+    * Invoke pytest with `--pdb`: https://github.com/paiml/testing-in-python/blob/master/chapter6/Makefiel#L2
 
 * Stop on fail:
   
-    * pytest -x
+    * `pytest -x`
   
-    * pytest --maxfail=2
+    * `pytest --maxfail=2`
 
 * Specify Tests: https://docs.pytest.org/en/6.2.x/usage.html?highlight=pdb#specifying-tests-selecting-tests
   
