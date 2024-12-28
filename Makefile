@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=hello --cov=greeting tests
+	python -m pytest -vv --cov=hello --cov=greeting --cov=smath tests
 	python -m pytest --nbval Overview_of_Colaboratory_Features.ipynb #Tests our jupyter notebook 
 
 debug:
